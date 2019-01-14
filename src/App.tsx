@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import { push } from 'connected-react-router'
+import { Link } from "react-router-dom";
+
 
 class App extends Component {
   render() {
@@ -19,6 +22,9 @@ class App extends Component {
           >
             Learn React
           </a>
+
+          <Link to="/connect">Connect</Link>
+
         </header>
       </div>
     );
